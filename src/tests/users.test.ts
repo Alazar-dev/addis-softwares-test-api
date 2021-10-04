@@ -18,18 +18,24 @@ describe('Testing Users', () => {
       users.find = jest.fn().mockReturnValue([
         {
           _id: 'qpwoeiruty',
-          email: 'a@email.com',
-          password: await bcrypt.hash('q1w2e3r4!', 10),
+          name: 'a@email.com',
+          dateOfBirth: "12-12-12",
+          gender: "m",
+          salary: 20000
         },
         {
-          _id: 'alskdjfhg',
-          email: 'b@email.com',
-          password: await bcrypt.hash('a1s2d3f4!', 10),
+          _id: 'qpwoeiruty',
+          name: 'a@email.com',
+          dateOfBirth: "12-12-12",
+          gender: "m",
+          salary: 20000
         },
         {
-          _id: 'zmxncbv',
-          email: 'c@email.com',
-          password: await bcrypt.hash('z1x2c3v4!', 10),
+          _id: 'qpwoeiruty',
+          name: 'a@email.com',
+          dateOfBirth: "12-12-12",
+          gender: "m",
+          salary: 20000
         },
       ]);
 
@@ -61,8 +67,10 @@ describe('Testing Users', () => {
   describe('[POST] /users', () => {
     it('response Create User', async () => {
       const userData: CreateUserDto = {
-        email: 'test@email.com',
-        password: 'q1w2e3r4',
+        name: 'Alazar',
+        dateOfBirth: 'test@email.com',
+        gender: 'test@email.com',
+        salary: 20000
       };
 
       const usersRoute = new UsersRoute();
@@ -71,8 +79,10 @@ describe('Testing Users', () => {
       users.findOne = jest.fn().mockReturnValue(null);
       users.create = jest.fn().mockReturnValue({
         _id: '60706478aad6c9ad19a31c84',
-        email: userData.email,
-        password: await bcrypt.hash(userData.password, 10),
+        name: userData.name,
+        dateOfBirth: userData.dateOfBirth,
+        gender: userData.gender,
+        salary: userData.salary,
       });
 
       (mongoose as any).connect = jest.fn();
@@ -85,25 +95,31 @@ describe('Testing Users', () => {
     it('response Update User', async () => {
       const userId = '60706478aad6c9ad19a31c84';
       const userData: CreateUserDto = {
-        email: 'test@email.com',
-        password: 'q1w2e3r4',
+        name: 'Alazar',
+        dateOfBirth: 'test@email.com',
+        gender: 'test@email.com',
+        salary: 20000,
       };
 
       const usersRoute = new UsersRoute();
       const users = usersRoute.usersController.userService.users;
 
-      if (userData.email) {
+      if (userData.name) {
         users.findOne = jest.fn().mockReturnValue({
           _id: userId,
-          email: userData.email,
-          password: await bcrypt.hash(userData.password, 10),
+          name: userData.name,
+          dateOfBirth: userData.dateOfBirth,
+          gender: userData.gender,
+          salary: userData.salary
         });
       }
 
       users.findByIdAndUpdate = jest.fn().mockReturnValue({
         _id: userId,
-        email: userData.email,
-        password: await bcrypt.hash(userData.password, 10),
+        name: userData.name,
+        dateOfBirth: userData.dateOfBirth,
+        gender: userData.gender,
+        salary: userData.salary,
       });
 
       (mongoose as any).connect = jest.fn();
@@ -121,8 +137,10 @@ describe('Testing Users', () => {
 
       users.findByIdAndDelete = jest.fn().mockReturnValue({
         _id: '60706478aad6c9ad19a31c84',
-        email: 'test@email.com',
-        password: await bcrypt.hash('q1w2e3r4!', 10),
+        name: 'Alazar',
+        dateOfBirth: 'test@email.com',
+        gender: 'test@email.com',
+        salary: 20000
       });
 
       (mongoose as any).connect = jest.fn();
