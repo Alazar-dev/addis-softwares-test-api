@@ -1,7 +1,7 @@
-import {  IsString, IsNumber,  } from 'class-validator';
+import {  IsString, IsNumber, IsNumberString  } from 'class-validator';
 
 export class CreateUserDto {
-  @IsNumber()
+  @IsNumberString()
   public salary: number;
 
   @IsString()

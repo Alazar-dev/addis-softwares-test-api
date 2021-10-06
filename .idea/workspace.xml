@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af5a438-40ab-4f4f-b9d1-cefd92a460bb" name="Changes" comment="first commit">
+    <list default="true" id="9af5a438-40ab-4f4f-b9d1-cefd92a460bb" name="Changes" comment="crud operation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/auth.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dtos/users.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/users.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/auth.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/users.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/users.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/auth.middleware.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth.route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/auth.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/users.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/auth.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/users.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/users.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +34,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,7 +61,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633231552929</updated>
-      <workItem from="1633231554186" duration="17163000" />
+      <workItem from="1633231554186" duration="19703000" />
+      <workItem from="1633424610465" duration="18000" />
+      <workItem from="1633424638310" duration="4688000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633235085061</created>
@@ -82,7 +72,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633235085061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="installed dep">
+      <created>1633337444192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633337444192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed auth">
+      <created>1633337456675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633337456675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="crud operation">
+      <created>1633337489732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633337489732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,9 +109,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="installed dep" />
+    <MESSAGE value="removed auth" />
+    <MESSAGE value="crud operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="crud operation" />
   </component>
 </project>
