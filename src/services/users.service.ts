@@ -25,7 +25,7 @@ class UserService {
     const findUser: User = await this.users.findOne({ email: userData.name });
     if (findUser) throw new HttpException(409, `Your name ${userData.name} already exists`);
 
-    const createUserData: User = await this.users.create({ ...userData});
+    const createUserData: User = await this.users.create({ ...userData });
 
     return createUserData;
   }

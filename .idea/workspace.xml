@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af5a438-40ab-4f4f-b9d1-cefd92a460bb" name="Changes" comment="crud operation">
+    <list default="true" id="9af5a438-40ab-4f4f-b9d1-cefd92a460bb" name="Changes" comment="easy fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dtos/users.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/users.dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,6 +63,10 @@
       <workItem from="1633231554186" duration="19703000" />
       <workItem from="1633424610465" duration="18000" />
       <workItem from="1633424638310" duration="4688000" />
+      <workItem from="1633508648728" duration="66000" />
+      <workItem from="1633508729518" duration="167000" />
+      <workItem from="1633508899580" duration="12000" />
+      <workItem from="1633508944571" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633235085061</created>
@@ -93,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633337489732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="easy fix">
+      <created>1633508704171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633508704171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +126,7 @@
     <MESSAGE value="installed dep" />
     <MESSAGE value="removed auth" />
     <MESSAGE value="crud operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="crud operation" />
+    <MESSAGE value="easy fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy fix" />
   </component>
 </project>
