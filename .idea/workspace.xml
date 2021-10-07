@@ -7,7 +7,6 @@
     <list default="true" id="9af5a438-40ab-4f4f-b9d1-cefd92a460bb" name="Changes" comment="easy fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/users.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <workItem from="1633508729518" duration="167000" />
       <workItem from="1633508899580" duration="12000" />
       <workItem from="1633508944571" duration="58000" />
-      <workItem from="1633590422755" duration="408000" />
+      <workItem from="1633590422755" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633235085061</created>
@@ -106,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633508704171</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update handler updated">
+      <created>1633590949662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633590949662</updated>
+    </task>
+    <task id="LOCAL-00007" summary="easy fix">
+      <created>1633590960249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633590960249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +142,7 @@
     <MESSAGE value="installed dep" />
     <MESSAGE value="removed auth" />
     <MESSAGE value="crud operation" />
+    <MESSAGE value="update handler updated" />
     <MESSAGE value="easy fix" />
     <option name="LAST_COMMIT_MESSAGE" value="easy fix" />
   </component>

@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import { CreateUserDto } from '@dtos/users.dto';
 import { User } from '@interfaces/users.interface';
 import UserService from '@services/users.service';
-import UserModel from "../models/users.model";
+import UserModel from '../models/users.model';
 
 class UsersController {
   public userService = new UserService();
@@ -39,17 +39,12 @@ class UsersController {
     }
   };
 
-  public updateUser =   async (req: Request, res: Response, next: NextFunction) => {
-    const employee = await UserModel.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      {
-        returnOriginal: false,
-      }
-    );
-    res
-      .json({ success: true, data: employee });
-  }
+  public updateUser = async (req: Request, res: Response) => {
+    const user = await UserModel.findByIdAndUpdate(req.params.id, req.body, {
+      returnOriginal: false,
+    });
+    res.json({ success: true, data: user });
+  };
 
   public deleteUser = async (req: Request, res: Response, next: NextFunction) => {
     try {
